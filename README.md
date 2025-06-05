@@ -25,3 +25,13 @@ to 20 minutes to do a single report suite. So, trying to do multiple in
 parallel seems like a long time to wait... especially if something craps out!
 The script does return a warning, and I sort of know what's causing that, but
 I haven't been able to address it yet. It doesn't actually affect the output.
+
+Instructions (WIP):
+
+1. Install R and R extension in Visual Studio Code
+2. Open repo in Visual Studio Code
+3. Access Adobe Analytics Web Services user name and Web Services secret from Adobe Analytics classic admin console
+4. Add Web Services user name and secret to line 37 in AdobeAuditDocBuilder.R
+5. Add the intended RSID to line 49 in the AdobeAuditDocBuilder.R
+6. Open R terminal in Visual Studio Code (Cmd/Ctrl Shift P), then type "R: Create R Terminal"
+7. Highlight R code and hit Cmd/Ctrl Enter to run R code
